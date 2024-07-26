@@ -1,4 +1,4 @@
-// 1.21	2024-06-26T20:23:15.0590042	Loot Tables
+// 1.21	2024-07-26T19:23:24.0463212	Loot Tables
 5bd3bb7304b3d56f341a1fa283ab1fd3b158e989 data/mccourse/loot_table/blocks/black_opal_block.json
 ec8eba19955dfbf511071d4e6bff1594e90aae93 data/mccourse/loot_table/blocks/black_opal_button.json
 ac97f2112eaf41f0fc26f462aa3ab72646904658 data/mccourse/loot_table/blocks/black_opal_deepslate_ore.json
@@ -13,4 +13,11 @@ c1bcded8838560db884dd1290769dcad10c23635 data/mccourse/loot_table/blocks/black_o
 4031d97fc4e40d2ff5d9663361a9aa1c5039b232 data/mccourse/loot_table/blocks/black_opal_stairs.json
 cb95bd09f5f411095434970da01857a4b3fdbf60 data/mccourse/loot_table/blocks/black_opal_trapdoor.json
 11ad661371a48c7e8517eb662c35c95ad4441308 data/mccourse/loot_table/blocks/black_opal_wall.json
+c4f22736b5e89719a500fee7401f1a4c885bbb25 data/mccourse/loot_table/blocks/ebony_leaves.json
+121604af2d991ea3ca1cd5230c70bc7bbcae7fb8 data/mccourse/loot_table/blocks/ebony_log.json
+636d1815b402c7b429970bcfe16a63f49d8b1b59 data/mccourse/loot_table/blocks/ebony_planks.json
+107ae24f69884146386328f06cd9e3780099de82 data/mccourse/loot_table/blocks/ebony_sapling.json
+03c30636af18bc811ec14b1e48068ea683c6ff7f data/mccourse/loot_table/blocks/ebony_wood.json
 50415aed90ef076bc00ef891626fa6ef366aec46 data/mccourse/loot_table/blocks/raw_black_opal_block.json
+040ee44c5eba936e93017e81a8338b6349e6bc3f data/mccourse/loot_table/blocks/stripped_ebony_log.json
+8a2ef75004ebce13ac3198d4a94cbc1e57500b4c data/mccourse/loot_table/blocks/stripped_ebony_wood.json

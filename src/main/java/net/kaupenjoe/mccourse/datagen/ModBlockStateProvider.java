@@ -2,7 +2,9 @@ package net.kaupenjoe.mccourse.datagen;
 
 import net.kaupenjoe.mccourse.MCCourseMod;
 import net.kaupenjoe.mccourse.block.ModBlocks;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.*;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
@@ -47,6 +49,31 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.BLACK_OPAL_FENCE_GATE);
 
         blockItem(ModBlocks.BLACK_OPAL_TRAPDOOR, "_bottom");
+
+        logBlock(((RotatedPillarBlock) ModBlocks.EBONY_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.EBONY_WOOD.get()), blockTexture(ModBlocks.EBONY_LOG.get()), blockTexture(ModBlocks.EBONY_LOG.get()));
+        logBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_EBONY_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_EBONY_WOOD.get()), blockTexture(ModBlocks.STRIPPED_EBONY_LOG.get()), blockTexture(ModBlocks.STRIPPED_EBONY_LOG.get()));
+
+        blockItem(ModBlocks.EBONY_LOG);
+        blockItem(ModBlocks.EBONY_WOOD);
+        blockItem(ModBlocks.STRIPPED_EBONY_LOG);
+        blockItem(ModBlocks.STRIPPED_EBONY_WOOD);
+
+        blockWithItem(ModBlocks.EBONY_PLANKS);
+
+        leavesBlock(ModBlocks.EBONY_LEAVES);
+        saplingBlock(ModBlocks.EBONY_SAPLING);
+    }
+
+    private void leavesBlock(DeferredBlock<Block> deferredBlock) {
+        simpleBlockWithItem(deferredBlock.get(),
+                models().singleTexture(BuiltInRegistries.BLOCK.getKey(deferredBlock.get()).getPath(), ResourceLocation.parse("minecraft:block/leaves"),
+                        "all", blockTexture(deferredBlock.get())).renderType("cutout"));
+    }
+
+    private void saplingBlock(DeferredBlock<Block> deferredBlock) {
+        simpleBlock(deferredBlock.get(), models().cross(BuiltInRegistries.BLOCK.getKey(deferredBlock.get()).getPath(), blockTexture(deferredBlock.get())).renderType("cutout"));
     }
 
     private void blockWithItem(DeferredBlock<Block> deferredBlock) {

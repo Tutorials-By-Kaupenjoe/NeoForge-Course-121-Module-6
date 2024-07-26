@@ -40,5 +40,11 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(BlockTags.FENCES).add(ModBlocks.BLACK_OPAL_FENCE.get());
         tag(BlockTags.FENCE_GATES).add(ModBlocks.BLACK_OPAL_FENCE_GATE.get());
         tag(BlockTags.WALLS).add(ModBlocks.BLACK_OPAL_WALL.get());
+
+        this.tag(BlockTags.LOGS_THAT_BURN)
+                .add(ModBlocks.EBONY_LOG.get())
+                .add(ModBlocks.EBONY_WOOD.get())
+                .add(ModBlocks.STRIPPED_EBONY_LOG.get())
+                .add(ModBlocks.STRIPPED_EBONY_WOOD.get());
     }
 }

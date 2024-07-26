@@ -1,2 +1,4 @@
-// 1.21	2024-06-23T20:04:13.9834446	Tags for minecraft:item mod id mccourse
+// 1.21	2024-07-26T19:23:24.048321	Tags for minecraft:item mod id mccourse
 40db16c0606aa9fca6ceba5b07b8a5b3e8f506f0 data/mccourse/tags/item/transformable_items.json
+a4abb3818c75a1dc53b3d47d60740946c18038de data/minecraft/tags/item/logs_that_burn.json
+d897469e72826c67b64a02484f6058d1e6a99522 data/minecraft/tags/item/planks.json
