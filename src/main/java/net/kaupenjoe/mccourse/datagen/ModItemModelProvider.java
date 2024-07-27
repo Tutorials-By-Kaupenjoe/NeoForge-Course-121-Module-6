@@ -31,6 +31,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModBlocks.BLACK_OPAL_DOOR.asItem());
 
         saplingItem(ModBlocks.EBONY_SAPLING);
+        saplingItem(ModBlocks.PETUNIA);
     }
 
     private ItemModelBuilder saplingItem(DeferredBlock<Block> item) {

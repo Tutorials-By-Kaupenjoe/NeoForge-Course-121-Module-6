@@ -1,4 +1,4 @@
-// 1.21	2024-07-26T19:23:24.0473218	Block States: mccourse
+// 1.21	2024-07-27T13:25:46.5779125	Block States: mccourse
 b548ddf1ba2ad5a2d24ac1505a095060da0f300b assets/mccourse/blockstates/black_opal_block.json
 d9ba7c55bae42b6d6fadaef16516e5e401e50636 assets/mccourse/blockstates/black_opal_button.json
 8011a7ad7f38c38738b4f0281d8f963e63e147b7 assets/mccourse/blockstates/black_opal_deepslate_ore.json
@@ -19,6 +19,8 @@ b3ab54200bd6aeed8dacc46cb42542014eed777d assets/mccourse/blockstates/ebony_leave
 7b05d6f93720942c169d68409471d4811c768dad assets/mccourse/blockstates/ebony_sapling.json
 4f2603bf5db19f2bf4764fcf1271f2f9e62c5d4b assets/mccourse/blockstates/ebony_wood.json
 bc7d21f942c84b754066fc4a8c9f34dc61953149 assets/mccourse/blockstates/magic_block.json
+e0ed4de0c81b30e99f61ecedd57b6075627edc2d assets/mccourse/blockstates/petunia.json
+f8f39fe16da91d6753d7178b7d2160e02ce9611a assets/mccourse/blockstates/potted_petunia.json
 350efab9079195561f26d5623ae2699910f7c5e3 assets/mccourse/blockstates/raw_black_opal_block.json
 8b1cbadef3a1d56cd11919279e658682f0768b20 assets/mccourse/blockstates/stripped_ebony_log.json
 337aeb081108a1ec1dceefb65781df518ab71dda assets/mccourse/blockstates/stripped_ebony_wood.json
@@ -64,6 +66,8 @@ c83ef2e9e3422b322c2c1553d5e7ffaf5f97c646 assets/mccourse/models/block/ebony_sapl
 6751a55eacf5dbf222ac44376f10d0e1611e0cd0 assets/mccourse/models/block/ebony_wood.json
 fe49a1cb997991b60db52c2c844173ca9999492b assets/mccourse/models/block/ebony_wood_horizontal.json
 e3bea00dd7e933deb59eaf492b010a1f8fdd914f assets/mccourse/models/block/magic_block.json
+0d0cbfbc53379a16e48522128dcf49276c037e1d assets/mccourse/models/block/petunia.json
+d9e05ad71a9d917463a88c698067ef29c2fa4552 assets/mccourse/models/block/potted_petunia.json
 92bc8351a686ddaf46e7372dbff2d7cd7223d510 assets/mccourse/models/block/raw_black_opal_block.json
 500a0eff100423dc399d91f0c371469fab7e5e35 assets/mccourse/models/block/stripped_ebony_log.json
 3e2a0ee4f2536a57b8362758ab29b8d1a36591b4 assets/mccourse/models/block/stripped_ebony_log_horizontal.json

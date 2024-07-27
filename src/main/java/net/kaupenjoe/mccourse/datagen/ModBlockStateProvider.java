@@ -64,6 +64,11 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         leavesBlock(ModBlocks.EBONY_LEAVES);
         saplingBlock(ModBlocks.EBONY_SAPLING);
+
+        simpleBlock(ModBlocks.PETUNIA.get(),
+                models().cross(blockTexture(ModBlocks.PETUNIA.get()).getPath(), blockTexture(ModBlocks.PETUNIA.get())).renderType("cutout"));
+        simpleBlock(ModBlocks.POTTED_PETUNIA.get(), models().singleTexture("potted_petunia", ResourceLocation.parse("flower_pot_cross"), "plant",
+                blockTexture(ModBlocks.PETUNIA.get())).renderType("cutout"));
     }
 
     private void leavesBlock(DeferredBlock<Block> deferredBlock) {

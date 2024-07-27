@@ -8,6 +8,7 @@ import net.kaupenjoe.mccourse.worldgen.tree.ModTreeGrowers;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.util.valueproviders.UniformInt;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.BlockGetter;
@@ -118,6 +119,10 @@ public class ModBlocks {
     public static final DeferredBlock<Block> EBONY_SAPLING = registerBlock("ebony_sapling",
             () -> new SaplingBlock(ModTreeGrowers.EBONY, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
 
+    public static final DeferredBlock<Block> PETUNIA = registerBlock("petunia",
+            () -> new FlowerBlock(MobEffects.BLINDNESS, 8, BlockBehaviour.Properties.ofFullCopy(Blocks.ALLIUM)));
+    public static final DeferredBlock<Block> POTTED_PETUNIA = BLOCKS.register("potted_petunia",
+            () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), PETUNIA, BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_ALLIUM)));
 
 
 
