@@ -3,6 +3,7 @@ package net.kaupenjoe.mccourse.block;
 import net.kaupenjoe.mccourse.MCCourseMod;
 import net.kaupenjoe.mccourse.block.custom.MagicBlock;
 import net.kaupenjoe.mccourse.block.custom.ModFlammableRotatedPillarBlock;
+import net.kaupenjoe.mccourse.block.custom.ModSaplingBlock;
 import net.kaupenjoe.mccourse.item.ModItems;
 import net.kaupenjoe.mccourse.worldgen.tree.ModTreeGrowers;
 import net.minecraft.core.BlockPos;
@@ -117,7 +118,7 @@ public class ModBlocks {
             });
 
     public static final DeferredBlock<Block> EBONY_SAPLING = registerBlock("ebony_sapling",
-            () -> new SaplingBlock(ModTreeGrowers.EBONY, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+            () -> new ModSaplingBlock(ModTreeGrowers.EBONY, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING), Blocks.NETHERRACK));
 
     public static final DeferredBlock<Block> PETUNIA = registerBlock("petunia",
             () -> new FlowerBlock(MobEffects.BLINDNESS, 8, BlockBehaviour.Properties.ofFullCopy(Blocks.ALLIUM)));

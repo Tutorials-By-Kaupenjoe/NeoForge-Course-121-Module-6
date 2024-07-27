@@ -59,6 +59,14 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.BLACK_OPAL_DOOR);
                         pOutput.accept(ModBlocks.BLACK_OPAL_TRAPDOOR);
 
+                        pOutput.accept(ModBlocks.EBONY_LOG.get());
+                        pOutput.accept(ModBlocks.EBONY_WOOD.get());
+                        pOutput.accept(ModBlocks.STRIPPED_EBONY_LOG.get());
+                        pOutput.accept(ModBlocks.STRIPPED_EBONY_WOOD.get());
+                        pOutput.accept(ModBlocks.EBONY_PLANKS.get());
+                        pOutput.accept(ModBlocks.EBONY_SAPLING.get());
+                        pOutput.accept(ModBlocks.EBONY_LEAVES.get());
+
                     }).build());
 
 
