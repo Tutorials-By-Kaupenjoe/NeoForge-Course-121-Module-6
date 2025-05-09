@@ -1,10 +1,13 @@
-// 1.21	2024-07-27T13:54:30.7666483	Registries
+// 1.21.1	2025-05-07T16:17:12.0815613	Registries
 ce95217f56c079ebc475e7f59ae79a4cb19d87c3 data/mccourse/neoforge/biome_modifier/add_black_opal_geode.json
 e398c42e56f11757a524601eeea6e2167c7bcaaf data/mccourse/neoforge/biome_modifier/add_black_opal_ore.json
 d276102bc86147846411f6b0fac1107521dab230 data/mccourse/neoforge/biome_modifier/add_end_black_opal_ore.json
 14455feaeadd42ebdc998af4c40d480a4123de87 data/mccourse/neoforge/biome_modifier/add_nether_black_opal_ore.json
 04c3b22f5fbaee52074fccc5d1731bcde3a3deb8 data/mccourse/neoforge/biome_modifier/add_petunia.json
 e31132970fa7fde12feec41166c16e15d6e9d4f9 data/mccourse/neoforge/biome_modifier/add_tree_ebony.json
+5da4ab1faf907027281d2d9a9eab9c493c30325c data/mccourse/worldgen/biome/end_rot.json
+88178f21eb10980efb60088cdf87dc9460d7ac53 data/mccourse/worldgen/biome/glowstone_plain.json
+8a17d59dcf4b78bd255cb06700ecadb87e974bd5 data/mccourse/worldgen/biome/kaupen_valley.json
 b15cffc142c41ccb8def3f8e4b5f26409613967d data/mccourse/worldgen/configured_feature/black_opal_geode.json
 c73504fc14a1eab3813ecd5986c4fca96ff73131 data/mccourse/worldgen/configured_feature/black_opal_ore.json
 134d72f7f0b038c2dbe0b7899b402a6941f71c88 data/mccourse/worldgen/configured_feature/ebony.json
